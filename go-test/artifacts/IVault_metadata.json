@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amout",
+						"type": "uint256"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Interfaces.sol": "IVault"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Interfaces.sol": {
+			"keccak256": "0xf22a0b93e713fff0eeac408a48227cbf4cfc4ad639ed95f273d590ac4bb1ff20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a62e57165a5a487ba3ffdc18dffcb212b47ad685b0c5392e44c6bf4e23d48e5d",
+				"dweb:/ipfs/QmTPHQ1Zk76gf3coCyAhGw7eTM6CeBTfvWqRtGdSy7SJMy"
+			]
+		}
+	},
+	"version": 1
+}

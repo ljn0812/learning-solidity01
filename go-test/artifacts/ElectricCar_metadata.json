@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "batteryLevel",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_speed",
+						"type": "uint256"
+					}
+				],
+				"name": "drive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "speed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Car.sol": "ElectricCar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Car.sol": {
+			"keccak256": "0x4962a1dec4c828382adb3a2315cbd8ad3bd2799dc7d85e52b5cb0f03edf63d75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99b0c35214ebf249869686e6b8664c4dce0bf389c0ef141ca107b6b6f7579bc5",
+				"dweb:/ipfs/QmTGM79dQ58gZSKS8U44EDFVHyST1QL7c6m6Tr2HLGQG8t"
+			]
+		}
+	},
+	"version": 1
+}
